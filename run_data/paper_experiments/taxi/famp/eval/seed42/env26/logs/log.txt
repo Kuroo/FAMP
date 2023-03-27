@@ -1,0 +1,101 @@
+Logging to ../run_data/paper_experiments/taxi/famp/eval/seed42/env26/logs
+
+Run parameters:
+epochs: 30
+envs_per_process: 1
+episodes: 10
+lookaheads: 0
+grad_update_type: single
+env: taxi
+exclude_envs: []
+fixed_env: 26
+random_move_prob: 0.0
+gae_discount: 0.98
+dice_discount: 0.0
+return_discount: 0.95
+baseline: linear
+entropy_reg: 0
+lr_outer: 0.1
+lr_inner: 10.0
+learn_params: inner
+adapt_options: False
+learn_lr_inner: False
+policy_type: ltopt
+options: 4
+hidden_sizes_base: []
+hidden_sizes_option: []
+hidden_sizes_subpolicy: []
+hidden_sizes_termination: []
+term_time: None
+std_type: diagonal
+std_value: 1.0
+no_bias: True
+normalize_advs: False
+termination_prior: -1
+seed: 42
+run_data_dir: ../run_data/paper_experiments/taxi/famp/eval/seed42
+run_name: env26
+plot_freq: 5000
+chp_freq: 30
+save_trajs: False
+visualize: True
+load_chp: ../run_data/paper_experiments/taxi/famp/train/seed42/checkpoints/epoch2000.tar
+load_rng: False
+continue_run: None
+load_optimizer: None
+log_level: 1
+temperature_options: 1
+temperature_terminations: 1
+max_option_prob: 1
+rank: 0
+epoch_start: 1
+base_dir: ../run_data/paper_experiments/taxi/famp/eval/seed42/env26
+Running 1 processes
+
+Epoch 1:
+-----------------------------------------
+| Step00DiscountedReturn/Avg | -1.95    |
+| Step00EpisodeLength/Avg    | 118      |
+| Step00Option0Usage/Avg     | 0.333    |
+| Step00Option1Usage/Avg     | 0.227    |
+| Step00Option2Usage/Avg     | 0.192    |
+| Step00Option3Usage/Avg     | 0.248    |
+| Step00Return/Avg           | -9.65    |
+| Step00Terminations/Avg     | 0.696    |
+-----------------------------------------
+
+Epoch 2:
+-----------------------------------------
+| Step00DiscountedReturn/Avg | -1.46    |
+| Step00EpisodeLength/Avg    | 63.1     |
+| Step00Option0Usage/Avg     | 0.393    |
+| Step00Option1Usage/Avg     | 0.225    |
+| Step00Option2Usage/Avg     | 0.247    |
+| Step00Option3Usage/Avg     | 0.136    |
+| Step00Return/Avg           | -4.21    |
+| Step00Terminations/Avg     | 0.529    |
+-----------------------------------------
+
+Epoch 3:
+-----------------------------------------
+| Step00DiscountedReturn/Avg | 0.0128   |
+| Step00EpisodeLength/Avg    | 14.4     |
+| Step00Option0Usage/Avg     | 0.259    |
+| Step00Option1Usage/Avg     | 0.269    |
+| Step00Option2Usage/Avg     | 0.145    |
+| Step00Option3Usage/Avg     | 0.327    |
+| Step00Return/Avg           | 0.66     |
+| Step00Terminations/Avg     | 0.512    |
+-----------------------------------------
+
+Epoch 4:
+-----------------------------------------
+| Step00DiscountedReturn/Avg | -0.0528  |
+| Step00EpisodeLength/Avg    | 15.2     |
+| Step00Option0Usage/Avg     | 0.262    |
+| Step00Option1Usage/Avg     | 0.269    |
+| Step00Option2Usage/Avg     | 0.141    |
+| Step00Option3Usage/Avg     | 0.328    |
+| Step00Return/Avg           | 0.58     |
+| Step00Terminations/Avg     | 0.496    |
+-----------------------------------------

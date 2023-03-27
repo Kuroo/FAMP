@@ -1,0 +1,89 @@
+Logging to ../run_data/paper_experiments/taxi/oursft7/eval/seed42/env21/logs
+
+Run parameters:
+epochs: 30
+envs_per_process: 1
+episodes: 10
+lookaheads: 0
+grad_update_type: single
+env: taxi
+exclude_envs: []
+fixed_env: 21
+random_move_prob: 0.0
+gae_discount: 0.98
+dice_discount: 0.0
+return_discount: 0.95
+baseline: linear
+entropy_reg: 0
+lr_outer: 0.1
+lr_inner: 10.0
+learn_params: inner
+adapt_options: False
+learn_lr_inner: False
+policy_type: ttopt
+options: 4
+hidden_sizes_base: []
+hidden_sizes_option: []
+hidden_sizes_subpolicy: []
+hidden_sizes_termination: []
+term_time: 7
+std_type: diagonal
+std_value: 1.0
+no_bias: True
+normalize_advs: False
+termination_prior: -1
+seed: 42
+run_data_dir: ../run_data/paper_experiments/taxi/oursft7/eval/seed42
+run_name: env21
+plot_freq: 5000
+chp_freq: 30
+save_trajs: False
+visualize: True
+load_chp: ../run_data/paper_experiments/taxi/oursft7/train/seed42/checkpoints/epoch2000.tar
+load_rng: False
+continue_run: None
+load_optimizer: None
+log_level: 1
+temperature_options: 1
+temperature_terminations: 1
+max_option_prob: 1
+rank: 0
+epoch_start: 1
+base_dir: ../run_data/paper_experiments/taxi/oursft7/eval/seed42/env21
+Running 1 processes
+
+Epoch 1:
+-----------------------------------------
+| Step00DiscountedReturn/Avg | -1.76    |
+| Step00EpisodeLength/Avg    | 160      |
+| Step00Option0Usage/Avg     | 0.242    |
+| Step00Option1Usage/Avg     | 0.204    |
+| Step00Option2Usage/Avg     | 0.268    |
+| Step00Option3Usage/Avg     | 0.287    |
+| Step00Return/Avg           | -13.9    |
+| Step00Terminations/Avg     | 0.132    |
+-----------------------------------------
+
+Epoch 2:
+-----------------------------------------
+| Step00DiscountedReturn/Avg | 0.207    |
+| Step00EpisodeLength/Avg    | 12.7     |
+| Step00Option0Usage/Avg     | 0        |
+| Step00Option1Usage/Avg     | 0        |
+| Step00Option2Usage/Avg     | 0.562    |
+| Step00Option3Usage/Avg     | 0.438    |
+| Step00Return/Avg           | 0.83     |
+| Step00Terminations/Avg     | 0.0855   |
+-----------------------------------------
+
+Epoch 3:
+-----------------------------------------
+| Step00DiscountedReturn/Avg | 0.207    |
+| Step00EpisodeLength/Avg    | 12.7     |
+| Step00Option0Usage/Avg     | 0        |
+| Step00Option1Usage/Avg     | 0.0368   |
+| Step00Option2Usage/Avg     | 0.562    |
+| Step00Option3Usage/Avg     | 0.401    |
+| Step00Return/Avg           | 0.83     |
+| Step00Terminations/Avg     | 0.0855   |
+-----------------------------------------

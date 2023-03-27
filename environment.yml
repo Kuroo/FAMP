@@ -1,0 +1,21 @@
+name: famp
+channels:
+  - defaults
+  - pytorch
+  - conda-forge
+dependencies:
+    - pytorch::cpuonly
+    - mpi4py=3.0.3
+    - pytorch
+    - python=3.9
+    - tensorboard
+    - matplotlib
+    - scipy
+    - tqdm
+    - pillow
+    - numpy=1.20.1
+    - pip
+    - pip:
+        - gym[box2d]==0.21
+        - pyglet==1.5.27
+        - mujoco-py<2.1,>=2.0
