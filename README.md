@@ -1,6 +1,6 @@
 # Reusable Options through Gradient-based Meta Learning
 
-This is the code that was used for the TMLR paper Reusable Options through Gradient-based Meta Learning.
+This is the code that was used for the TMLR paper Reusable Options through Gradient-based Meta Learning (https://openreview.net/forum?id=qdDmxzGuzu).
 
 ## Visualization scripts
 Scripts to run several trained models are included in the repo. In order to show policies during evaluation one should:
